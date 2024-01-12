@@ -23,5 +23,12 @@
     "@types/node": "^20.11.0",
     "@types/uuid": "^9.0.7",
     "tsc-watch": "^6.0.4"
+  },
+  "mikro-orm": {
+    "useTsNode": true,
+    "configPaths": [
+      "./src/configs/mikro-orm-config.ts",
+      "./dist/configs/mikro-orm-config.js"
+    ]
   }
 }
